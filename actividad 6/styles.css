@@ -1,0 +1,21 @@
+.desktop-only{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.mobile-only{
+    background-color: red;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .desktop-only {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mobile-only {
+      display: none;
+    }
+  }
