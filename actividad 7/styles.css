@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box{
+    background-color: aquamarine;
+    font-display: center;
+    width: 100%;
+    height:100%;
+    font-size: 40px;
+    align-items: center;
+}
+
+@media(min-width: 768px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}
